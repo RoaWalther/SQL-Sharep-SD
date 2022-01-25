@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bitacora"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/bitacora"
+            android:layout_width="match_parent"
+            android:layout_height="521dp"
+            android:background="#7078ba"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="75dp"
+            android:layout_marginVertical="530dp"
+            android:gravity="center"
+            android:onClick="guardar"
+            android:text="guardar" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="320dp"
+            android:layout_marginVertical="575dp"
+            android:gravity="center"
+            android:text="r"
+            android:textColor="#6ef21a1a"
+            android:background="#03efeeee"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:onClick="regresar"
+             />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

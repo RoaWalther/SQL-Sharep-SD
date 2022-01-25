@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:orientation="vertical">
+
+
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:onClick="cerrar"
+            android:text="x"
+            android:textColor="#f40a0a"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:background="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Ingrese a Cualquier Button Del Menu"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:layout_marginVertical="10dp"
+            />
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="50dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginVertical="0dp"
+                android:onClick="webview"
+                android:text="webView"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginVertical="2dp"
+                android:onClick="claseshared"
+                android:text="correo@"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginVertical="2dp"
+                android:onClick="claseshared2"
+                android:text="datos"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginVertical="2dp"
+                android:onClick="bitacora"
+                android:text="bitacora"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginVertical="2dp"
+                android:onClick="sd"
+                android:text="sd"
+                android:textColor="#000000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginVertical="2dp"
+                android:onClick="basededatos1"
+                android:text="BaseD1"
+                android:textColor="#000000"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>

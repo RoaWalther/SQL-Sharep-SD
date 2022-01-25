@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityWeb">
+
+    <WebView
+        android:id="@+id/webVi"
+        android:layout_width="match_parent"
+        android:layout_height="576dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </WebView>
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="328dp"
+        android:layout_marginStart="328dp"
+        android:layout_marginVertical="0dp"
+        android:background="#000000"
+        android:onClick="cerrar"
+        android:text="x"
+        android:textColor="#f40a0a"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/webVi" />
+</android.support.constraint.ConstraintLayout>
